@@ -1,6 +1,6 @@
 /*
 参考情報
-https://teratail.com/questions/1766"Z"
+https://teratail.com/questions/17669
 この回答にあったコードを参考
 回答者:https://github.com/katoy
 ———————————–*/
