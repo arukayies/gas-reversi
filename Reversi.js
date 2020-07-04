@@ -166,13 +166,10 @@ function onEdit(e) {
  ans True/Falseを返す
 ———————————–*/
 function playable(y, x, player) {
-    let field, turn, ans, opponent, delta_y, delta_x, pos, count, n, m
+    let field, ans, opponent, delta_y, delta_x, pos, count, n, m
 
     /* スクリプトプロパティ上の盤面データを取得する */
     field = FildToArray(prop.getProperty("FIELD"));
-
-    /* スクリプトプロパティ上のターンを取得する */
-    turn = prop.getProperty("TURN");
 
     ans = false;
     opponent = (player == BLACK) ? WHITE : BLACK;
