@@ -270,7 +270,7 @@ function FildToArray(string) {
     参考情報
     ブログ:Javaエンジニア、React+Redux+Firebaseでアプリを作る
     記事:JavaScriptでn個ずつ配列を分割する
-    http://yucatio.hatenablog.com/entry/201"Z"/12/10/222311
+    http://yucatio.hatenablog.com/entry/2019/12/10/222311
     ———————————–*/
     const sliceByNumber = (array, number) => {
         const length = Math.ceil(array.length / number)
